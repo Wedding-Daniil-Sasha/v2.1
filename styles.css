@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #ffffff;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.invitation {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.script-font {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.couple {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.person img {
+  width: 140px;
+  height: 140px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.calendar {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+.weekdays,
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin: 5px 0;
+  padding: 0 10px;
+}
+
+.dates span,
+.weekdays span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+}
+
+.heart {
+  background-color: #6a3b3b;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.heart-number {
+  font-size: 0.95em;
+}
+
+.message {
+  margin: 40px 0 20px;
+  font-size: 1.1em;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+
+.telegram-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background-color: #2e6f57;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.telegram-link:hover {
+  background-color: #225042;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+  .couple {
+    flex-direction: column;
+  }
+
+  .person img {
+    width: 120px;
+    height: 120px;
+  }
+}
