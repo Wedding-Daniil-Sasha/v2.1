@@ -55,29 +55,18 @@ body {
   padding: 0 10px;
 }
 
-.dates span,
-.weekdays span {
+.weekdays span,
+.dates span {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 32px;
 }
 
-.heart {
-  background-color: #6a3b3b;
-  color: white;
+.normal-date {
   font-weight: bold;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.heart-number {
-  font-size: 0.95em;
+  color: #b03030;
+  font-size: 1.2em;
 }
 
 .message {
