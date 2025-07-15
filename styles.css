@@ -63,12 +63,18 @@ body {
   height: 32px;
 }
 
-.normal-date {
-  font-weight: bold;
-  color: #b03030;
-  font-size: 1.2em;
+.heart-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.heart-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Сообщение и кнопка */
 .message {
   margin: 40px 0 20px;
   font-size: 1.1em;
@@ -94,12 +100,33 @@ body {
 
 /* Адаптивность */
 @media (max-width: 600px) {
+  .invitation {
+    padding: 20px 10px;
+  }
+
+  .script-font {
+    font-size: 2em;
+  }
+
   .couple {
     flex-direction: column;
   }
 
   .person img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .name {
+    font-size: 1.2em;
+  }
+
+  .calendar {
+    font-size: 1em;
+  }
+
+  .heart-icon {
+    width: 28px;
+    height: 28px;
   }
 }
