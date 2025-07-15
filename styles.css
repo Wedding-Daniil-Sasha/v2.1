@@ -60,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 32px;
+  height: 40px;
 }
 
 .heart-date {
@@ -70,8 +70,8 @@ body {
 }
 
 .heart-icon {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
 }
 
 /* Сообщение и кнопка */
@@ -126,7 +126,7 @@ body {
   }
 
   .heart-icon {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
   }
 }
